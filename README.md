@@ -1,36 +1,41 @@
-# 🎮 Tic Tac Toe - Juego a modo de Práctica
+# 🎮 Tic Tac Toe — Juego de Práctica
 
-Un proyecto **full-stack moderno** del clásico juego **Tic Tac Toe (Ta-Te-Ti)**, desarrollado con **React + Vite** en el frontend y **Node.js + Express** en el backend.  
-Presenta un diseño minimalista, colores suaves, animaciones elegantes y una arquitectura organizada y eficiente.
+Proyecto **full-stack moderno** del clásico juego **Tic Tac Toe (Ta-Te-Ti)**, desarrollado con **React + Vite** en el frontend y **Node.js + Express** en el backend.
+
+Cuenta con un diseño minimalista, colores suaves, animaciones elegantes y una arquitectura clara y escalable.
+
+🔗 **Demo online:**  
+👉 https://tic-tac-toe-sigma-lovat.vercel.app/
 
 ---
 
 ## 🚀 Características principales
 
-✅ Interfaz moderna y responsiva con tonos pastel  
+✅ Interfaz moderna y totalmente responsiva  
+✅ Diseño limpio con tonos pastel  
 ✅ Animaciones suaves y experiencia de usuario fluida  
-✅ Lógica de juego clara, eficiente y bien documentada  
-✅ Arquitectura escalable (frontend + backend separados)  
-✅ Backend con Node.js/Express (API REST simple)  
-✅ Frontend optimizado con React y Vite  
-✅ Código organizado, limpio y comentado  
+✅ Lógica de juego clara, eficiente y bien estructurada  
+✅ Arquitectura separada Frontend / Backend  
+✅ API REST simple con Node.js y Express  
+✅ Código organizado, legible y mantenible  
+✅ Deploy profesional en Vercel  
 
 ---
 
 ## 🧩 Tecnologías utilizadas
 
-**Frontend**
+### 🖥️ Frontend
 - React 18  
 - Vite  
-- TailwindCSS  
+- Tailwind CSS  
 - Framer Motion (animaciones)  
 - Axios  
 
-**Backend**
+### ⚙️ Backend
 - Node.js  
 - Express  
 - CORS  
-- Nodemon (modo desarrollo)  
+- Nodemon (entorno de desarrollo)  
 
 ---
 
@@ -52,8 +57,6 @@ Proyecto-Juegotictactoe/
 ├── vite.config.mjs
 └── ...
 
-yaml
-Copiar código
 
 ---
 
@@ -61,77 +64,65 @@ Copiar código
 
 ### 🔹 Clonar el repositorio
 ```bash
-git clone https://github.com/MairaAndrada71/Proyecto-Juegotictactoe.git
+git clone https://github.com/MairaAndrada71/TicTacToe.git
 cd Proyecto-Juegotictactoe
-🔹 Instalar dependencias y ejecutar el backend
-bash
-Copiar código
+🔹 Backend
 cd backend
 npm install
 npm run dev
-📡 Servidor en ejecución en: http://localhost:4000
+📡 Servidor disponible en:
+http://localhost:4000
 
-🔹 Instalar dependencias y ejecutar el frontend
+🔹 Frontend
 En una nueva terminal:
 
-bash
-Copiar código
 cd frontend
 npm install
 npm run dev
-🌐 Abrí la app en: http://localhost:5173
+🌐 Aplicación disponible en:
+http://localhost:5173
 
 🎨 Estilo y diseño
-El diseño está inspirado en tonos suaves y modernos, con tipografía minimalista y animaciones de transición sutiles.
-Se utilizó TailwindCSS para una maquetación responsiva y Framer Motion para las animaciones.
+El diseño está inspirado en una estética moderna y minimalista, utilizando:
 
-🪄 El resultado: una interfaz atractiva, profesional y agradable de usar.
+Colores suaves y agradables
+
+Tipografía clara y legible
+
+Animaciones sutiles con Framer Motion
+
+Maquetación responsiva con Tailwind CSS
+
+🪄 El resultado es una interfaz profesional, fluida y agradable de usar.
 
 🧠 Aprendizajes clave
-Este proyecto refuerza habilidades en:
+Este proyecto permitió reforzar habilidades en:
 
-Comunicación entre frontend y backend
+Comunicación Frontend ↔ Backend
 
-Gestión de estado y hooks en React
+Manejo de estado y hooks en React
 
-Manejo del ciclo de vida de componentes
+Organización y arquitectura de proyectos
 
-Buenas prácticas de arquitectura y nombrado
+Buenas prácticas de código y estructura
 
-Deploy profesional (Vercel + Render)
+Deploy profesional (Vercel)
 
 💡 Posibles mejoras futuras
-✨ Modo multijugador online con Socket.io
+✨ Modo multijugador online (Socket.io)
 ✨ Marcador global y estadísticas
 ✨ Selector de tema (claro / oscuro)
-✨ Integración con base de datos (MongoDB)
+✨ Persistencia de datos con MongoDB
 ✨ IA básica como oponente
-
-```markdown
-
-## 📸 Vista previa
-
-<p align="center">
-### 🏁 Pantalla principal
-<img src="doc/game-start.png" alt="Pantalla principal del juego" width="400" style="border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1)">
-
-### 🏆 Jugador ganador
-<img src="doc/game-win.png" alt="Pantalla de victoria" width="400" style="border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1)">
-
-### 🤝 Empate
-<img src="doc/game-draw.png" alt="Pantalla de empate" width="400" style="border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1)">
-</p>
-
-
 
 👩‍💻 Autora
 Maira Natalia Andrada
 Desarrolladora Full Stack
 
-📧 mairaandrada@gmail.com
-💼 LinkedIn
-(https://www.linkedin.com/in/maira-natalia-andrada-01a8701b7/)
+📧 Email: mairaandrada@gmail.com
+💼 LinkedIn:
+https://www.linkedin.com/in/maira-natalia-andrada-01a8701b7/
 
 🪶 Licencia
-Este proyecto está bajo la licencia MIT.
+Este proyecto está bajo la Licencia MIT.
 Podés usarlo, modificarlo y compartirlo libremente con fines educativos o profesionales.
